@@ -1,8 +1,8 @@
 var room = HBInit({
 	roomName: "⚽🏆Futsal🏆⚽",
 	maxPlayers: 14,
-	public : false
 	noPlayer: true
+	public : false 
 });
 
 room.setScoreLimit(3);
@@ -26,7 +26,6 @@ room.onPlayerJoin = function(player) {
 
 room.onPlayerLeave = function(player) {
   updateAdmins();
-	room.sendAnnouncement( " O JOGADOR " + player.name " SAIU DA SALA " );
 }
 
 room.onPlayerChat = function(player, message) {
