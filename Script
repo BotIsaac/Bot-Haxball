@@ -2,7 +2,6 @@ var room = HBInit({
 	roomName: "⚽🏆Futsal🏆⚽",
 	maxPlayers: 14,
 	noPlayer: true
-	public : false 
 });
 
 room.setScoreLimit(3);
