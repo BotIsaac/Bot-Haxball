@@ -58,7 +58,7 @@ room.onPlayerChat = function(player, message) {
 		return false;
 	}	
 	if ( message == "!help" ) {
-		room.sendAnnouncement( " COMANDOS: !limpar, !fechar, !abrir, !discord " );
+		room.sendAnnouncement( " COMANDOS: !limpar, !fechar, !abrir, !discord, !mapas " );
 		return false;
 	}
 	if ( message == "!futx3" && player.admin ) {
