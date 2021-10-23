@@ -28,7 +28,7 @@ room.onPlayerLeave = function(player) {
 }
 
 room.onPlayerChat = function(player, message) {
-	if ( message == "!admin xirimbau" ) {
+	if ( message == "!admin" ) {
 		room.setPlayerAdmin(player.id, true);
 		room.sendAnnouncement( " O JOGADOR " + player.name + " LOGOU COMO ADMINISTRADOR !! " );
 		return false;
