@@ -49,7 +49,7 @@ room.onPlayerChat = function(player, message) {
 		return false;
 	}
 	if ( message == "!discord" ) {
-		room.sendAnnouncement( " ENTRE NO NOSSO DISCORD: " );
+		room.sendAnnouncement( " ENTRE NO NOSSO DISCORD: https://discord.gg/zTQAREdu2q " );
 		return false;
 	}
 	if ( message == "!mapas" ) {
